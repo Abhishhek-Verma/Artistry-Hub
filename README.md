@@ -52,5 +52,4 @@ npm install  # For React, Vue, or Next.js projects
 npm start  # Starts the development server.
 
 
-🤝 Contributing
-Contributions are welcome! Feel free to fork the repository and submit a pull request.
+🤝 Contributing are welcome! Feel free to fork the repository and submit a pull request.
