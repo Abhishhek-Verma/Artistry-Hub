@@ -2,7 +2,7 @@
 🖌️ Artistry Hub
 A creative platform for showcasing and exploring artistic works.
 
-📌 Project Overview
+📌 Project Overview...
 Artistry Hub is a web-based project designed to display and manage artistic content. It includes HTML, CSS, JavaScript, and frameworks like React.js, Next.js, AngularJS, and Vue.js to provide a dynamic and visually appealing experience.
 
 🚀 Features
