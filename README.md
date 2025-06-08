@@ -8,7 +8,7 @@ Artistry Hub is a web-based project designed to display and manage artistic cont
 🚀 Features
 Responsive Design – Ensures accessibility across devices.
 
-Dynamic UI – Built with modern frameworks like React, Vue, and Angular.
+Dynamic UI – Built with modern frameworks like React, Vue, and Angular..
 
 Interactive Elements – Enhances user experience with JavaScript.
 
