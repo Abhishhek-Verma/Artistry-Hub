@@ -17,6 +17,21 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
+
+.navbar-logo-link {
+  text-decoration: none;
+}
+
+.navbar-logo-text {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--dl-color-theme-primary1);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
  
 .navbar-image1 {
   height: 3rem;

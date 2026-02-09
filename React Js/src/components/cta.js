@@ -1,10 +1,13 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
+import { SignInButton, useUser } from '@clerk/clerk-react'
 
 import './cta.css'
 
 const CTA = (props) => {
+  const { isSignedIn } = useUser()
+  
   return (
     <div className="thq-section-padding">
       <div className="thq-section-max-width">
@@ -16,9 +19,17 @@ const CTA = (props) => {
                 <p className="thq-body-large">{props.content1}</p>
               </div>
               <div className="cta-actions">
-                <button type="button" className="thq-button-filled cta-button">
-                  {props.action1}
-                </button>
+                {!isSignedIn ? (
+                  <SignInButton mode="modal">
+                    <button type="button" className="thq-button-filled cta-button">
+                      {props.action1}
+                    </button>
+                  </SignInButton>
+                ) : (
+                  <Link to="/dashboard" className="thq-button-filled cta-button" style={{ textDecoration: 'none' }}>
+                    Go to Dashboard
+                  </Link>
+                )}
               </div>
             </div>
           </div>

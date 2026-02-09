@@ -30,20 +30,6 @@ const Contact = (props) => {
               </span>
             </div>
           </div>
-          <div className="contact-content4">
-            <svg viewBox="0 0 1024 1024" className="thq-icon-medium">
-              <path d="M282 460q96 186 282 282l94-94q20-20 44-10 72 24 152 24 18 0 30 12t12 30v150q0 18-12 30t-30 12q-300 0-513-213t-213-513q0-18 12-30t30-12h150q18 0 30 12t12 30q0 80 24 152 8 26-10 44z"></path>
-            </svg>
-            <div className="contact-contact-info2">
-              <div className="contact-content5">
-                <h3 className="contact-text6 thq-heading-3">Phone</h3>
-                <p className="contact-text7 thq-body-large">{props.content4}</p>
-              </div>
-              <span className="contact-phone thq-body-small">
-                {props.phone1}
-              </span>
-            </div>
-          </div>
           <div className="contact-content6">
             <svg viewBox="0 0 1024 1024" className="thq-icon-medium">
               <path d="M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 512c-106.040 0-192-85.96-192-192s85.96-192 192-192 192 85.96 192 192-85.96 192-192 192z"></path>
@@ -65,16 +51,16 @@ const Contact = (props) => {
 }
 
 Contact.defaultProps = {
-  content2: 'You can also fill out the form below to send us a message:',
-  email1: 'info@artistryhub.com',
-  address1: '123 Art Street, Art City, USA',
+  content2: 'Get in Touch',
+  email1: 'abhishekatkiet@gmail.com',
+  address1: 'Ghaziabad, Delhi NCR, India',
   content3: 'We will get back to you as soon as possible.',
   content1:
     "We'd love to hear from you. Reach out to us for any inquiries or feedback.",
-  content4: 'Follow us on social media for more updates and inspiration.',
+  content4: 'Connect with us on social media',
   heading1: 'Contact Us',
-  content5: 'Connect with us:',
-  phone1: '+1-123-456-7890',
+  content5: 'Visit us at:',
+  phone1: '',
 }
 
 Contact.propTypes = {

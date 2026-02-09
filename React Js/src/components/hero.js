@@ -13,14 +13,6 @@ const Hero = (props) => {
           <h1 className="hero-text1 thq-heading-1">{props.heading1}</h1>
           <p className="hero-text2 thq-body-large">{props.content1}</p>
         </div>
-        <div className="hero-actions">
-          <button className="thq-button-filled hero-button1">
-            <span className="thq-body-small">{props.action1}</span>
-          </button>
-          <button className="thq-button-outline hero-button2">
-            <span className="thq-body-small">{props.action2}</span>
-          </button>
-        </div>
       </div>
       <div className="hero-content2">
         <div className="hero-row-container1 thq-animated-group-container-horizontal thq-mask-image-horizontal">

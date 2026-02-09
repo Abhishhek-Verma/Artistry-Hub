@@ -118,37 +118,37 @@ const Testimonial = (props) => {
 }
 
 Testimonial.defaultProps = {
-  author2Position: 'Painter',
-  author1Position: 'Graphic Designer',
-  author3Alt: 'Image of Emily Chen',
-  author1Name: 'Samantha Smith',
+  author2Position: 'Digital Artist, Mumbai',
+  author1Position: 'Graphic Designer, Delhi',
+  author3Alt: 'Image of Priya Sharma',
+  author1Name: 'Rajesh Kumar',
   author1Src:
-    'https://images.unsplash.com/photo-1541525897844-9851970da95a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNDU0MDU2NXw&ixlib=rb-4.0.3&q=80&w=1080',
-  author3Name: 'Emily Chen',
+    'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNDU0MDU2NXw&ixlib=rb-4.0.3&q=80&w=1080',
+  author3Name: 'Priya Sharma',
   review2:
-    'As a painter, I was looking for a place to share my passion for art. Artistry Hub not only allows me to exhibit my paintings but also provides a space for inspiration and collaboration with other artists.',
-  author2Name: 'Michael Johnson',
-  author4Position: 'Illustrator',
-  author4Name: 'David Rodriguez',
+    'As a digital artist from Mumbai, I was searching for a platform to showcase my work. Artistry Hub not only gave me visibility but also connected me with fellow artists and potential clients across India.',
+  author2Name: 'Amit Patel',
+  author4Position: 'Illustrator, Bangalore',
+  author4Name: 'Sneha Reddy',
   author4Src:
-    'https://images.unsplash.com/photo-1690040337678-e868ce9a6748?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNDU0MDU2NXw&ixlib=rb-4.0.3&q=80&w=1080',
-  author1Alt: 'Image of Samantha Smith',
+    'https://images.unsplash.com/photo-1494790108377-be9c29b29330?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNDU0MDU2NXw&ixlib=rb-4.0.3&q=80&w=1080',
+  author1Alt: 'Image of Rajesh Kumar',
   author2Src:
-    'https://images.unsplash.com/photo-1520223297779-95bbd1ea79b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNDU0MDU2Nnw&ixlib=rb-4.0.3&q=80&w=1080',
+    'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNDU0MDU2Nnw&ixlib=rb-4.0.3&q=80&w=1080',
   author3Src:
-    'https://images.unsplash.com/photo-1503443062224-9f77d743cf25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNDU0MDU2Nnw&ixlib=rb-4.0.3&q=80&w=1080',
-  author2Alt: 'Image of Michael Johnson',
-  author4Alt: 'Image of David Rodriguez',
+    'https://images.unsplash.com/photo-1534528741775-53994a69daeb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNDU0MDU2Nnw&ixlib=rb-4.0.3&q=80&w=1080',
+  author2Alt: 'Image of Amit Patel',
+  author4Alt: 'Image of Sneha Reddy',
   content1:
-    'I have found a supportive community of fellow artists on Artistry Hub. The platform has helped me showcase my work and connect with potential clients.',
-  author3Position: 'Photographer',
+    'Discover what artists across India are saying about Artistry Hub',
+  author3Position: 'Photographer, Pune',
   review1:
-    "Artistry Hub has been a game-changer for me. I've received valuable feedback on my artwork and even landed a few commissions through the platform.",
-  heading1: 'Testimonials',
+    "Artistry Hub has been a game-changer for my career. Being from Delhi, I've connected with clients from all over India and even received valuable feedback that helped me improve my designs. Highly recommended!",
+  heading1: 'What Our Artists Say',
   review3:
-    "Artistry Hub has given me the exposure I needed as a photographer. The community is vibrant, and I've had the opportunity to participate in various exhibitions and projects.",
+    "As a photographer in Pune, I was looking for a platform to share my work. Artistry Hub provided exactly that - a vibrant community where I could showcase my portfolio and participate in exciting projects.",
   review4:
-    "I can't thank Artistry Hub enough for the support and encouragement I've received here. It's a fantastic platform for artists to grow, learn, and showcase their talents.",
+    "Being based in Bangalore, Artistry Hub helped me reach a wider audience. The support from the community has been incredible, and I've grown both as an artist and professionally through this platform.",
 }
 
 Testimonial.propTypes = {

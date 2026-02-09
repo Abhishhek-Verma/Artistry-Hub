@@ -18,17 +18,25 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Spotless Hungry Crocodile</title>
+        <title>Artistry Hub</title>
       </Helmet>
       <Navbar></Navbar>
       <Hero></Hero>
-      <Features1></Features1>
+      <div id="features">
+        <Features1></Features1>
+      </div>
       <CTA></CTA>
       <Features2></Features2>
-      <Pricing></Pricing>
+      <div id="pricing">
+        <Pricing></Pricing>
+      </div>
       <Steps></Steps>
-      <Testimonial></Testimonial>
-      <Contact></Contact>
+      <div id="testimonials">
+        <Testimonial></Testimonial>
+      </div>
+      <div id="contact">
+        <Contact></Contact>
+      </div>
       <Footer></Footer>
     </div>
   )
