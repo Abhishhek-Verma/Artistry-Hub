@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="heroGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:0.8" />
+    </linearGradient>
+    <linearGradient id="heroGrad2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:0.6" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background shapes -->
+  <circle cx="150" cy="150" r="120" fill="url(#heroGrad1)" opacity="0.3"/>
+  <circle cx="650" cy="450" r="100" fill="url(#heroGrad2)" opacity="0.3"/>
+  
+  <!-- Canvas/frame -->
+  <rect x="250" y="150" width="300" height="350" fill="#fff" stroke="#667eea" stroke-width="8" rx="10"/>
+  
+  <!-- Artistic elements inside canvas -->
+  <circle cx="400" cy="250" r="60" fill="url(#heroGrad1)" opacity="0.5"/>
+  <rect x="330" y="340" width="140" height="100" fill="url(#heroGrad2)" opacity="0.4" rx="5"/>
+  
+  <!-- Paint palette -->
+  <ellipse cx="650" cy="200" rx="60" ry="50" fill="url(#heroGrad1)" opacity="0.7"/>
+  <circle cx="630" cy="190" r="8" fill="#fff"/>
+  <circle cx="650" cy="195" r="8" fill="#fff"/>
+  <circle cx="670" cy="190" r="8" fill="#fff"/>
+  
+  <!-- Paintbrush -->
+  <rect x="100" y="400" width="8" height="80" fill="#8B4513" transform="rotate(-30 104 440)"/>
+  <ellipse cx="85" cy="390" rx="12" ry="18" fill="#667eea" transform="rotate(-30 85 390)"/>
+  
+  <!-- Decorative paint splatters -->
+  <circle cx="200" cy="450" r="15" fill="#667eea" opacity="0.3"/>
+  <circle cx="600" cy="350" r="12" fill="#f5576c" opacity="0.3"/>
+  <circle cx="150" cy="300" r="10" fill="#764ba2" opacity="0.3"/>
+  <circle cx="680" cy="120" r="18" fill="#f093fb" opacity="0.3"/>
+  
+  <!-- Stars/sparkles -->
+  <path d="M 100 100 L 105 110 L 115 105 L 110 115 L 120 120 L 110 125 L 115 135 L 105 130 L 100 140 L 95 130 L 85 135 L 90 125 L 80 120 L 90 115 L 85 105 L 95 110 Z" 
+        fill="#ffd700" opacity="0.6"/>
+  <path d="M 720 480 L 723 485 L 728 483 L 726 488 L 731 490 L 726 492 L 728 497 L 723 495 L 720 500 L 717 495 L 712 497 L 714 492 L 709 490 L 714 488 L 712 483 L 717 485 Z" 
+        fill="#ffd700" opacity="0.6"/>
+</svg>
