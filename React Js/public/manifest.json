@@ -1,0 +1,16 @@
+{
+  "short_name": "Artistry Hub",
+  "name": "Artistry Hub - Artist Portfolio Platform",
+  "description": "A platform for artists to showcase, upload, and manage their artwork portfolio",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#667eea",
+  "background_color": "#ffffff"
+}
